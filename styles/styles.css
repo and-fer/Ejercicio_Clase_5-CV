@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1,
+h3 {
+  color: #0a5676;
+  text-transform: uppercase;
+  background-color: #c4c4c4;
+  padding: 10px 0 10px 15px;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  padding-top: 13px;
+}
+
+/* :::: HEADER :::: */
+.cabecera {
+  background-color: #e6e6e6;
+  text-align: center;
+}
+
+header img {
+  width: 150px;
+  margin: 15px;
+}
+
+/* :::: MAIN :::: */
+.contenido-principal {
+  margin-top: 100px;
+}
+
+.lista {
+  margin: 20px 50px;
+}
+
+.lista__items {
+  padding: 0 10px;
+  line-height: 30px;
+}
+.lista__items span {
+  font-weight: bold;
+}
+
+.lista__items__datos-personales {
+  margin-left: 25px;
+  list-style: disc;
+}
+.lista__items__datos-personales span {
+  font-style: italic;
+}
+
+/* :::: FOOTER :::: */
+.pie-de-pagina {
+  padding: 10px 0 15px;
+  display: inline-block;
+  position: absolute;
+  background-color: #0a5676;
+  color: white;
+  text-align: center;
+  width: 100%;
+  bottom: 0;
+}
+
+.pie-de-pagina__social-icons {
+  margin-left: 5px;
+}
+.pie-de-pagina__social-icons__link,
+.pie-de-pagina__social-icons__link:visited,
+.pie-de-pagina__social-icons__link:hover,
+.pie-de-pagina__social-icons__link:focus {
+  color: white;
+}
+
+.fa-brands {
+  padding: 0 2px;
+}
